@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animacion{
+width: 200px;
+height: 200px;
+font-size: 2rem;
+background-color: rgba(120, 50, 185, 0.726);
+position: relative;
+border-radius: 50%;
+animation-name: cuboEnMovimiento;
+animation-duration: 2s;
+animation-iteration-count: alternate-reverse;
+}
+
+@keyframes cuboEnMovimiento {
+   
+    
+    40%{
+        background-color: rgb(69, 209, 132) ;
+        top:300px;
+        left: 200px;
+    }
+    60%{
+        background-color: rgb(63, 19, 143) ;
+        top:0px;
+        left: 200px;
+    }
+    100%{
+        background-color: rgb(211, 66, 180) ;
+        
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.plantass{
+    display: flex;
+    width: 120px;
+    height: 100px;
+}
+
+.box {
+    padding: 20px;
+    height: 200px;
+   
+}
+.planta1{
+    width: 200px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    
+    
+}
+
+.planta1 h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.planta1 img{
+    width: 100%;
+    padding: 10px;
+}
+
+.planta1 a{
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 5px 5px;
+    background-color: rgba(127, 255, 212, 0.459);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.planta1 p{
+    margin-block: 20px;
+}
+
+.planta1 a:hover{
+    background-color: blueviolet;
+}
+
+.foto{
+    width: 120px;
+    height: 100px;
+}
